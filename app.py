@@ -1,5 +1,6 @@
 import streamlit as st
 import joblib
+import pandas as pd
 from pathlib import Path
 
 st.set_page_config(page_title="EV Battery Life Predictor",layout='wide')
