@@ -67,10 +67,9 @@ Key steps performed on the dataset:
    - Correlation analysis  
 
 3. **Modeling**  
-   - Linear Regression  
-   - Decision Tree Regression  
+   - Ridge
    - Random Forest Regression  
-   - Gradient Boosting Regression  
+   
 
 4. **Model Evaluation**  
    - Mean Absolute Error (MAE)  
@@ -79,7 +78,7 @@ Key steps performed on the dataset:
 
 5. **Deployment**  
    - Streamlit app for user-friendly predictions  
-   - Users can upload CSV files or input values manually  
+   - Users can input values manually  
 
 ---
 
@@ -118,4 +117,5 @@ cd Regression-Project
 pip install -r requirements.txt
 
 4 -Run the Streamlit application:
+
 streamlit run app.py
