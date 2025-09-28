@@ -1,9 +1,6 @@
 import streamlit as st
 import joblib
-import pandas as pd
 from pathlib import Path
-import matplotlib.pylab as plt
-import seaborn as sns
 
 st.set_page_config(page_title="EV Battery Life Predictor",layout='wide')
 st.title("EV Battery Remaining Life Predictor")
